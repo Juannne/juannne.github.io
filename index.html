@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+<title>Equipo Deportivo Pereira</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <center></centerZ><h1>Equipo Deportivo Pereira</h1></center>
+            <nav>
+                <ul class="nav">
+                    <li><a href="#">Inicio</a></li>
+                    <li class="submenu"><a href="Desplegables\Historia.html">Historia</a>
+                     
+                    </li>
+                    <li class="submenu"><a href="Desplegables\Noticias.html">Noticias</a>
+                      
+                    </li>
+                    <li class="submenu"><a href="Desplegables\Trofeos.html">Trofeos</a>
+                      
+                    </li>
+                    <li class="submenu"><a href="Desplegables\Uniformes.html">Uniformes</a>
+                      
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <img src="fotos\fp.JPG" alt="Fondo"> 
+
+    <section class="banner">
+        <div class="container">
+            <h1>Bienvenido al Equipo Deportivo Pereira</h1>
+            <h2>Descubre todo sobre el equipo y su emocionante trayectoria en el mundo del deporte.</h2>
+        </div>
+    </section>
+
+    <section class="noticias">
+        <div class="container">
+            <h2>Noticias Más Relevantes</h2>
+            <div class="noticia">
+                <img src="fotos/foto.JPG" alt="Noticia 1">
+                <h1>El equipo Deportivo Pereira consigue su primer liga luego de un emocionante compromiso contra Independiente Medellin, de esta manera da paso a su primera participación en copa Libertadores.</h1>
+            </div>
+            <div class="noticia">
+                <video width="800" height="450" controls>
+        <source src="videos\Leonel Alvarez ya está en Pereira.mp4" type="video/mp4">
+        Tu navegador no soporta el elemento de video.
+               </video>
+
+                <h1>Entrevista exclusiva con el entrenador del equipo, destacando los logros propuestos y metas.</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="plantilla">
+        <div class="container">
+            <h1>Jugadores referentes del club</h1>
+            <h2>Conoce a los jugadores estrella que hicieron historia siendo parte del equipo deportivo Pereira.</h2>
+            <div class="jugador">
+                <img src="fotos\Jhonny.JPG" alt="1">
+                <h1>Jhonny Alexander Vásquez Salazar</h1>
+            </div>
+            <div class="jugador">
+                <img src="fotos\Leonel.JPG" alt="Jugador 2">
+                <h1>Leonel de Jesús Álvarez Zuleta </h1>
+            </div>
+            <div class="jugador">
+                <img src="fotos\leo.JPG" alt="Jugador 1">
+                <h1>Leonardo Fabio Castro Loaiza</h1>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna pregunta o comentario? </p>
+            <form id="formularioContacto" onsubmit="enviarFormulario(event)">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+ 
+
+</body>
+
+</html>
